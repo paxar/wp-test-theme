@@ -1,0 +1,78 @@
+/*
+Theme Name: test-theme
+
+Author: paxar
+Author URI:
+Version: 1.00
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a:link,
+a:visited{
+    color: #006ec3;
+}
+
+p{
+    line-height: 1.65em;
+}
+
+
+.wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.site-header{
+    border-bottom: 2px solid #999;
+}
+
+.post{
+    border-bottom: 2px dotted #bbbbbb;
+}
+.post:last-of-type{
+    border-bottom: none;
+}
+
+
+
+.site-footer{
+    margin-top: 30px;
+    border-top: 2px solid #999;
+}
+
+
+/* navigation */
+
+.site-nav ul {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.site-nav ul li {
+    display: inline-block;
+
+}
+
+.site-header nav ul li a{
+    padding: 10px 18px;
+
+    border: 1px solid #bbbbbb;
+    text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+    background-color: #ececec;
+}
